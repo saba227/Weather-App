@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <form>
+        <div class="constainer">
+            <div class="search">
+                <input id="input" type="text" name="country">
+                <button type="button" id="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
+                </button>
+            </div>
+            <div class="resultcountry">
+                <p>Weather in</p>
+                <p id="resultCountry"></p>
+            </div>
+            <div class="resulttemp">
+                <p id="temp"></p>
+            </div>
+            <div class="weather">
+                <img src="" alt="" width="45px">
+                <p id="weather">weather</p>
+            </div>
+            <div class="humidity">
+                <p>humidity:</p>
+                <p id="humidity"></p>
+            </div>
+            <div class="wind">
+                <p>Wind speed:</p>
+                <p id="wind"></p>
+            </div>
+        </div>
+    </form>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
+
